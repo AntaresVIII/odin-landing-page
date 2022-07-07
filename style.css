@@ -1,21 +1,144 @@
 body {
-    max-width: 66%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
+    font-family: 'Roboto', arial;
 }
 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    min-height: 100vh;
+    gap: 35px;
+}
+
+.header, .foot {
+    background-color: #1F2937;
+    color: white;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    gap: 30px;
+}
 .navbar {
+    margin: auto;
+    width: 90%;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
 }
+.navbar p {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
 .links {
     display: flex;
     gap: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.head {
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+}
+.hero {
+    gap: -30px;
+}
+.hero h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: -5px;
+}
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
-.head {
-    
+.hero button {
+    background-color: #3882F6;
+    border-style: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+.head img {
+    border-radius: 60px;
+    margin-bottom: 30px;
+}
+.info {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.info h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: auto auto 30px auto;
+}
+.boxes {
+    display: flex;
+    gap: 20px;
+}
+.box {
+    align-items: center;
+    border: 2px;
+    border-radius: 12px;
+    border-color: #3882F6;
+    width: 150px;
+    height: 150px;
+    border-width: 4px;
+    border-style: solid;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 30px 200px 30px 200px;
+}
+.cta {
+    background-color: #3882F6;
+    color: white;
+    margin: auto 100px auto 100px;
+    border-radius: 15px;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+}
+.cta h3 {
+    font-weight: bold;
+    margin-bottom: -18px;
+}
+.cta button {
+    background-color: #3882F6;
+    color: white;
+    border-width: 2.5px;
+    border-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    width: 150px;
+    height: 40px;
+}
+.foot {
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align:center;
 }
